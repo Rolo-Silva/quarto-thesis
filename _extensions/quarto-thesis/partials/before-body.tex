@@ -11,7 +11,7 @@
 
 \vspace*{.06\textheight}
 {\scshape\LARGE \univname\par}\vspace{1.5cm} % University name
-\textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
+\textsc{\Large Upgrade Report}\\[0.5cm] % Thesis type
 
 \HRule \\[0.4cm] % Horizontal line
 {\huge \bfseries \ttitle\par}\vspace{0.4cm} % Thesis title
@@ -40,10 +40,11 @@ $endif$
  
 \vfill
 
-\large \textit{A thesis submitted in fulfillment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
+ \large \textit{ A report submitted in fulfillment of the requirements for upgrading to\\ candidate status for the degree of \degreename}\\[0.3cm] % University requirement text
+%\large \textit{An upgrade report submitted in fulfillment of the requirements\\ for the degree of }\\[0.3cm] % University requirement text
 \textit{in the}\\[0.4cm]
-\groupname\\
-\deptname\\[2cm] % Research group name and department name
+%\groupname\\
+\deptname\\[1cm] % Research group name and department name
  
 \vfill
 
@@ -55,11 +56,11 @@ $else$
 $endif$
 $endif$
 
-$if(book.date)$
-{\large $book.date$}\\[4cm] % Date
-$endif$
+%$if(book.date)$
+%{\large $book.date$}\\[4cm] % Date
+%$endif$
 
- 
+{\large \today}\\[4cm] % Date
 \vfill
 \end{center}
 \end{titlepage}
